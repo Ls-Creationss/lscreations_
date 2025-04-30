@@ -645,6 +645,10 @@ main {
 /*HOME - HOME - HOME*/
 
 /*FOOTER - FOOTER*/
+footer {
+  margin: 1em 0em;
+}
+
 .contenitore-social {
   display: flex;
   align-items: center;

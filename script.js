@@ -155,7 +155,7 @@ function renderVarianti(prodotto, categoria) {
 
   const header = document.createElement("div");
   header.classList.add("contenitore-info-catalogo");
-  header.innerHTML = `<h2>${categoria.nome}</h2><h3>${categoria.descrizione || ""}</h3>`;
+  header.innerHTML = `<h2>${prodotto.nome}</h2><h3>${categoria.descrizione || ""}</h3>`;
   main.appendChild(header);
 
   const variantSection = document.createElement("section");
